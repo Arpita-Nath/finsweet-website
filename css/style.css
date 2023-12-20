@@ -3,6 +3,8 @@
     --poppins:'Poppins', sans-serif;
     --nunito:'Nunito', sans-serif;
     --open_sans:'Open Sans', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+    --tint_blue: #1C1E53;
 
 }
 *{
@@ -44,8 +46,12 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* =========Navbar Code Starts======== */
 #navbar{
-    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 16px 0;
+    z-index: 999;
 }
 .nav_wrapper{
     display: flex;
@@ -78,8 +84,66 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =========Navbar Code Ends======== */
 
-/* =========Common Code Starts======== */
-/* =========Common Code Ends======== */
+/* =========Banner Code Starts======== */
+#banner{
+    position: relative;
+    padding: 218px 0 128px 0;
+    background: var(--tint_blue);
+}
+.banner_wrapper{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+.banner_content{
+    width: 582px;
+}
+.banner_content h1{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.banner_content p{
+    width: 562px;
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.banner_btn a{
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.banner_btn a:last-child{
+    background: transparent;
+    color: #FFF;
+}
+.banner_btn a:last-child i{
+    margin-left: 16px;
+}
+.banner_img{
+    width: 638px;
+    height: 362px;
+    overflow: hidden;
+}
+.banner_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* =========Banner Code Ends======== */
 
 /* =========Common Code Starts======== */
 /* =========Common Code Ends======== */
