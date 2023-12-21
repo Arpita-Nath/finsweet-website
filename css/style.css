@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .section_heading{
     color: var(--dark_blue);
-    font-family: var(--dark_blue);
+    font-family: var(--poppins);
     font-size: 48px;
     font-weight: 600;
     line-height: 64px;
@@ -326,8 +326,55 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =========Project Code Ends======== */
 
-/* =========Common Code Starts======== */
-/* =========Common Code Ends======== */
+/* =========Features Code Starts======== */
+#features{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.features_heading{
+    text-align: center;
+}
+.features_heading h5{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.features_heading .section_heading{
+    width: 630px;
+    margin: 12px auto 47px auto;
+}
+.features_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 32px;
+
+}
+.features_card_item{
+    padding: 58px 0 48px 48px;
+    background: #FFF;
+    width: 405px;
+}
+.card_icon i{
+    color: #2405F2;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+.text{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+    text-transform: capitalize;
+}
+.features_card_item p{
+    width: 325px;
+    margin-top: 12px;
+}
+/* =========Features Code Ends======== */
 
 /* =========Common Code Starts======== */
 /* =========Common Code Ends======== */
