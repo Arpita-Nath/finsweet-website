@@ -376,11 +376,97 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =========Features Code Ends======== */
 
-/* =========Common Code Starts======== */
-/* =========Common Code Ends======== */
+/* =========Clients Code Starts======== */
+#clients{
+    position: relative;
+    padding: 130px 0;
+}
+#clients::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.515);
+    left: 0;
+    top: 0;
+}
+#clients::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.515);
+    left: 0;
+    bottom: 0;
+}
+.clients_content{
+    width: 327px;
+}
+.content_heading{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px; 
+}
+.clients_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.clients_content p{
+    margin-top: 16px;
+}
+.clients_main{
+    width: 843px;
+}
+.clients_main h3{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+    margin-bottom: 48px;
+}
+.clients_info{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.clients_img{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.clients_details h4{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.clients_details h5{
+    color: var(--Dark-blue);
+    font-family: var(--poppins);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+/* =========Clients Code Ends======== */
 
-/* =========Common Code Starts======== */
-/* =========Common Code Ends======== */
+/* =========Ques Code Starts======== */
+#ques{
+    padding: 128px 0;
+}
+/* =========Ques Code Ends======== */
 
 /* =========Common Code Starts======== */
 /* =========Common Code Ends======== */
